@@ -1,6 +1,13 @@
 # A simple key-value database in python.
 
-# Usage:
+
+## Install
+```shell
+pip install pykvdb
+```
+
+
+## Usage:
 ```python
 import pykvdb
 import os
