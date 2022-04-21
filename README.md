@@ -9,7 +9,7 @@ pip install pykvdb
 
 ## Usage:
 ```python
-import kvdb
+from kvdb import KVDB
 import os
 
 # set db file path, default is './pykvdb'
@@ -17,7 +17,7 @@ dbpath = os.path.join(os.path.split(os.path.realpath(__file__))[0], 'kvdb')
 # set db file maxsize, default is 10M
 dbsize = 10 * 1024 * 1024
 
-with pykvdb.KVDB(path=kvpath, size=dbsize) as kv:
+with KVDB(path=kvpath, size=dbsize) as kv:
     kv.set('a', 'test')
 
 # get value
