@@ -1,7 +1,8 @@
 #!/usr/bin/python
 # encoding: utf-8
-# author: bingal
-# descryption: 更优雅的方式使用lmdb
+
+__version__ = '0.1.0'
+__author__ = 'Bingal'
 
 import lmdb
 

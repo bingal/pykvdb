@@ -1,7 +1,7 @@
 # A simple key-value database in python.
 
 
-## Install
+## Installation
 ```shell
 pip install pykvdb
 ```
@@ -9,11 +9,11 @@ pip install pykvdb
 
 ## Usage:
 ```python
-import pykvdb
+import kvdb
 import os
 
 # set db file path, default is './pykvdb'
-dbpath = os.path.join(os.path.split(os.path.realpath(__file__))[0], 'pykvdb')
+dbpath = os.path.join(os.path.split(os.path.realpath(__file__))[0], 'kvdb')
 # set db file maxsize, default is 10M
 dbsize = 10 * 1024 * 1024
 
