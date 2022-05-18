@@ -9,7 +9,7 @@ pip install pykvdb
 
 ## Usage:
 ```python
-from kvdb import KVDB
+from pykvdb import KVDB
 import os
 
 # set db file path, default is './pykvdb'
